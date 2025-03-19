@@ -26,7 +26,6 @@
     * Modulo de fotoresistencia: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
     * Sensor de flama: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
   
-- La base de datos PostgreSQL.
   
 - Explicación del código con documentación clara.
     # Modulo Interruptor de mercurio:
@@ -1172,6 +1171,12 @@
                      print(f"Error al reconectar: {ex}")
          
              sleep(0.5)  # Esperar 0.5 segundos antes de la siguiente lectura
+
+   # Sensor Efecto Hall Analogo: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
+   # Sensor de temperatura Analoga: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
+    # Sensor de temperatura: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
+    * Sensor led 7 colores: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
+    * Sensor de temperatura y humedad:
 
 ---
 
