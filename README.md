@@ -25,6 +25,30 @@
     * Sensor de campo magnatico: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
     * Modulo de fotoresistencia: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
     * Sensor de flama: https://drive.google.com/drive/folders/11ZcGPM9Rlhlp8-2W7U3PeWrwDL5IE4IZ
+
+| Sensor | Imagen | Enlace |
+|--------|--------|--------|
+|KY-004 Botón Y KY-008 Led Laser| ![image](https://github.com/user-attachments/assets/6040b21d-cd91-45d4-8c42-dd9f59e7a12f) | https://app.cirkitdesigner.com/project/bb6bf2d9-9a7d-45fb-b351-6c83b7f5c121 |
+| Modulo Interruptor de mercurio | ![image](https://github.com/user-attachments/assets/13c2ab78-668b-45f5-9919-511c60569406)| https://app.cirkitdesigner.com/project/bb6bf2d9-9a7d-45fb-b351-6c83b7f5c121|
+|Sensor Detector de metal|![image](https://github.com/user-attachments/assets/79aace7d-3d26-4258-972f-7081323de1a9) |https://app.cirkitdesigner.com/project/e66f038f-ceae-4234-b755-b38646f1e3f4|
+|Buzzer | ![image](https://github.com/user-attachments/assets/5bbda0f3-ee12-4e1b-81ad-ad3ec8c3f3a4)| https://app.cirkitdesigner.com/project/6b423768-385d-4c70-bca4-16925f0b9ce9 |
+| Small-Sound | ![image](https://github.com/user-attachments/assets/5d2b2dc4-eedf-4e18-bf63-2261df030765)| https://app.cirkitdesigner.com/project/c4a4b45c-123a-4671-801d-4ef32e4b4d4b|
+|Buzzer Pasivo|![image](https://github.com/user-attachments/assets/07cb84b6-66be-4886-a5b2-a308087491c9)|https://app.cirkitdesigner.com/project/c4a4b45c-123a-4671-801d-4ef32e4b4d4b |
+|Sensor Efecto Hall Analogo | ![image](https://github.com/user-attachments/assets/bd7c6f8b-c584-4c97-af7c-d5ebe05d4cf1)| https://app.cirkitdesigner.com/project/e66f038f-ceae-4234-b755-b38646f1e3f4 |
+|KY 027 inclinacion Led |![image](https://github.com/user-attachments/assets/5b63f2ac-e888-4b7a-b670-3b62e17fe3b7)| https://app.cirkitdesigner.com/project/db92bf77-3172-4761-be82-dccff5f4b133 |
+|Sensor de Obstaculos |![image](https://github.com/user-attachments/assets/2d36d290-fe64-4afc-bee5-c757f3f60ce5)|https://app.cirkitdesigner.com/project/dade1ed8-29d9-4986-b79f-3d6a5e2724ff |
+| Interruptor Magnetico|![image](https://github.com/user-attachments/assets/41ee115f-3c57-4672-985d-cbfa67e63b0e)|https://app.cirkitdesigner.com/project/baa7a8f8-3b96-42fe-b128-4a0f131691ed|
+|Sensor Ultrasonico |![image](https://github.com/user-attachments/assets/6b63f893-8e8e-4fbe-9bd8-0be9f4d6fe4b)|https://app.cirkitdesigner.com/project/0bb201e4-e895-4b9d-82f1-aabfdb9686ed|
+| Mini Interruptor Magnetico |![image](https://github.com/user-attachments/assets/eacc524c-5478-411f-b13f-a15eb6da0ff0)|https://app.cirkitdesigner.com/project/baa7a8f8-3b96-42fe-b128-4a0f131691ed |
+
+
+
+
+
+
+
+
+
   
   
 ## 🔧 2. Ejercicio de Soldadura
