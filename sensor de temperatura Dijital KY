@@ -1,0 +1,80 @@
+import network
+from umqtt.simple import MQTTClient
+from machine import Pin, ADC
+from time import sleep
+import json
+
+# Propiedades para conectar a un cliente MQTT
+MQTT_BROKER = "192.168.137.138"
+MQTT_USER = ""
+MQTT_PASSWORD = ""
+MQTT_CLIENT_ID = "esp32_ky_013_temp"
+MQTT_TOPIC = "sensores/temperatura"
+MQTT_PORT = 1883
+
+# Configuración del pin del sensor de temperatura (salida analógica)
+TEMP_PIN = 34  # Pin GPIO para la salida analógica del KY-013
+sensor_temp = ADC(Pin(TEMP_PIN))  # Crear objeto ADC para leer el valor analógico
+sensor_temp.atten(ADC.ATTN_0DB)  # Configurar para rango 0-3.3V (0-4095 valores)
+
+# Función para convertir la lectura analógica a temperatura (Celsius)
+def leer_temperatura():
+    # Leer el valor analógico (de 0 a 4095)
+    lectura = sensor_temp.read()
+    
+    # Convertir el valor leído a voltaje
+    voltaje = (lectura / 4095) * 3.3
+    
+    # Fórmula para convertir el voltaje a temperatura (dependiendo de la calibración del sensor)
+    temperatura = (voltaje - 0.5) * 100  # Esta fórmula es para el KY-013 con una salida de 0.5V a 25°C
+    return temperatura
+
+# Función para conectar a WiFi
+def conectar_wifi():
+    print("Conectando a WiFi...", end="")
+    sta_if = network.WLAN(network.STA_IF)
+    sta_if.active(True)
+    sta_if.connect('AURORA', '13082005')  
+    while not sta_if.isconnected():
+        print(".", end="")
+        sleep(0.3)
+    print("\nWiFi Conectada!")
+
+# Función para conectarse al broker MQTT
+def conecta_broker():
+    client = MQTTClient(MQTT_CLIENT_ID, MQTT_BROKER, port=MQTT_PORT, user=MQTT_USER, password=MQTT_PASSWORD, keepalive=60)
+    client.connect()
+    print(f"Conectado al broker {MQTT_BROKER} en el tópico {MQTT_TOPIC}")
+    return client
+
+# Conectar a WiFi
+conectar_wifi()
+
+# Conectar al broker MQTT
+client = conecta_broker()
+
+# Ciclo infinito
+while True:
+    try:
+        # Leer la temperatura
+        temperatura = leer_temperatura()
+
+        # Crear el mensaje con la temperatura
+        mensaje = {
+            "sensor": "temperatura",
+            "valor": round(temperatura, 2)  # Redondeamos a 2 decimales
+        }
+
+        print("Publicando:", mensaje)
+        client.publish(MQTT_TOPIC, json.dumps(mensaje))  # Enviar los datos en formato JSON
+
+    except Exception as e:
+        print(f"Error: {e}")
+        # Intentar reconectar al broker MQTT en caso de error
+        try:
+            client.disconnect()
+            client = conecta_broker()
+        except Exception as ex:
+            print(f"Error al reconectar: {ex}")
+
+    sleep(2)  # Leer la temperatura cada 2 segundos
