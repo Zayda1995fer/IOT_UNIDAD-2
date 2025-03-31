@@ -51,12 +51,12 @@
 | Interruptor Magnetico|![image](https://github.com/user-attachments/assets/41ee115f-3c57-4672-985d-cbfa67e63b0e)|https://app.cirkitdesigner.com/project/baa7a8f8-3b96-42fe-b128-4a0f131691ed|
 |Sensor Ultrasonico |![image](https://github.com/user-attachments/assets/6b63f893-8e8e-4fbe-9bd8-0be9f4d6fe4b)|https://app.cirkitdesigner.com/project/0bb201e4-e895-4b9d-82f1-aabfdb9686ed|
 | Mini Interruptor Magnetico |![image](https://github.com/user-attachments/assets/eacc524c-5478-411f-b13f-a15eb6da0ff0)|https://app.cirkitdesigner.com/project/baa7a8f8-3b96-42fe-b128-4a0f131691ed |
-
-
-
-
-
-
+|KY 027 inclinacion Led|![image](https://github.com/user-attachments/assets/f8fa2cf8-3a90-491c-a63e-3b028331b921)|https://app.cirkitdesigner.com/project/db16e23d-cc89-44d5-a99f-784b1f006ebd|
+|Módulo Joystick|![image](https://github.com/user-attachments/assets/ac55d2b1-4ab4-43e8-95af-721d42b2f3ee)|https://app.cirkitdesigner.com/project/141b0de3-5173-451c-b7c2-c56864f75156|
+|Sensor de Flama|![image](https://github.com/user-attachments/assets/ab1ec618-682b-4eeb-a7c5-8a5847f2b27a)|https://app.cirkitdesigner.com/project/c76b8a46-1c90-4461-bcc4-1a7327f26916|
+|Sensor de campo magnetico|![image](https://github.com/user-attachments/assets/ef9b41d4-5ef3-498b-abec-db946005f5fd)|https://app.cirkitdesigner.com/project/a712899d-3b50-4aa3-8837-4bec7b5578a1|
+|Modulo Led 7 colores|![image](https://github.com/user-attachments/assets/44d0991a-8079-4ad7-a251-4c7dece9e661)|https://app.cirkitdesigner.com/project/61a67f8b-80ca-4049-b9ed-a4279db3da01|
+|Sensor de inclinación|![image](https://github.com/user-attachments/assets/3705e679-f2ce-49f9-b6aa-6c1da914fa9b)|https://app.cirkitdesigner.com/project/33585839-d3ab-40af-891a-3cff15c6d510|
 
 
 
